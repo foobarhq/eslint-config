@@ -4,7 +4,7 @@ Custom-built ESLint configuration designed for use in ESM, CJS, TypeScript, Vani
 
 ## Usage
 
-- Install using `npm i -D @ephys/eslint-config` or `npm i -D @ephys/eslint-config-typescript`
+- Install using `npm i -D @foobarhq/eslint-config` or `npm i -D @foobarhq/eslint-config-typescript`
 - Create a `.eslintrc` file containing the following:
   ```json5
   {
@@ -25,11 +25,15 @@ You can enable these variants by inheriting from more of our configuration prese
 
 The following presets files are available:
 
-- `@ephys/eslint-config/browser`: Enable browser environment.
-- `@ephys/eslint-config/react`: Turn on react-specific rules.
-- `@ephys/eslint-config/node`: Enable node environment.
-- `@ephys/eslint-config/jest`: Enable jest-specific rules.
-- `@ephys/eslint-config/commonjs`: We assume ESM. Use this preset to require commonjs instead. 
+- `@foobarhq/eslint-config/browser`: Enable browser environment.
+- `@foobarhq/eslint-config/react`: Turn on react-specific rules.
+- `@foobarhq/eslint-config/node`: Enable node environment.
+- `@foobarhq/eslint-config/jest`: Enable jest-specific rules.
+- `@foobarhq/eslint-config/commonjs`: We assume ESM. Use this preset to require commonjs instead. 
   Note that you only need to this preset to treat `.js` files as CJS. `.cjs` files will already be treated as CJS.
 
-Note: All of these presets are also available from `@ephys/eslint-config-typescript/<preset>`.
+Note: All of these presets are also available from `@foobarhq/eslint-config-typescript/<preset>`.
+
+## Thanks
+
+This repo is based on the work of @ephys [ephys/eslint-config](https://github.com/ephys/eslint-config)

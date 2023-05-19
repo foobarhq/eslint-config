@@ -1,5 +1,5 @@
 {
-  "name": "@ephys/eslint-config",
+  "name": "@foobarhq/eslint-config",
   "version": "19.0.2",
   "description": "ESLint configuration for the foobarHQ JavaScript code style",
   "main": "lib/index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ephys/eslint-config.git"
+    "url": "git+ssh://git@github.com/foobarhq/eslint-config.git"
   },
   "keywords": [
     "eslint"
   ],
   "author": "Zoé Cox <zoe@ephys.dev>",
   "license": "MIT",
-  "homepage": "https://github.com/ephys/eslint-config",
+  "homepage": "https://github.com/foobarhq/eslint-config",
   "dependencies": {
     "@babel/core": "^7.21.4",
     "@babel/eslint-parser": "^7.21.3",
