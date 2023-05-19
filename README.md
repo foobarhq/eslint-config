@@ -1,4 +1,4 @@
-# @ephys/eslint-config
+# @foobarhq/eslint-config
 
 Custom-built ESLint configuration designed for use in ESM, CJS, TypeScript, Vanilla JS, React & Node.
 
